@@ -1097,11 +1097,9 @@
 
 		.ui-tabs {
 			zoom: 1;
-			
-			
 		}
 		.ui-tabs li {
-			float:right;
+			float:left;
 		}
 		.ui-tabs .ui-tabs-nav {
 			list-style: none;
@@ -1141,7 +1139,7 @@
 		.ui-tabs .ui-tabs-panel {
 			display: block;
 			clear: both;
-			border: 2px #ccc solid;
+			border-top: 2px #ccc solid;
 			padding: 10px;
 			
 			
@@ -1149,70 +1147,16 @@
 		.ui-tabs .ui-tabs-panel li,
 		.ui-tabs .ui-tabs-panel li a{
 			text-decoration:none;
-			display:inline;
+			display:inline-block;
 			list-style-type:none;
 			text-align: right;
 			
+		}
+		.ui-tabs .ui-tabs-panel .special ul li{
+			display: inline-block;
 		}
 		.ui-tabs .ui-tabs-hide {
 			display: none;
 		}
 
-/*----- Tabs -----*/
-.tabs {
-    width:100%;
-    display:inline-block;
-}
- 
-    /*----- Tab Links -----*/
-    /* Clearfix */
-    .tab-links:after {
-        display:block;
-        clear:both;
-        content:'';
-    }
- 
-    .tab-links li {
-        margin:0px 5px;
-        float:left;
-        list-style:none;
-    }
- 
-        .tab-links a {
-            padding:9px 15px;
-            display:inline-block;
-            border-radius:3px 3px 0px 0px;
-            background:#f0f0f0;
-            font-size:16px;
-            font-weight:600;
-            color:#4c4c4c;
-            transition:all linear 0.15s;
-			text-decoration:none;
-        }
- 
-        .tab-links a:hover {
-            background:#a7cce5;
-            text-decoration:none;
-        }
- 
-    li.active a, li.active a:hover {
-        background:#fff;
-        color:#4c4c4c;
-    }
- 
-    /*----- Content of Tabs -----*/
-    .tab-content {
-        padding:15px;
-        border-radius:3px;
-        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
-        background:#fff;
-    }
- 
-        .tab {
-            display:none;
-        }
- 
-        .tab.active {
-            display:block;
-        }
 

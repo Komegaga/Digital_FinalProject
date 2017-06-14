@@ -40,7 +40,7 @@ $(document).ready(()=>{ // jQuery main
 		background.scaleX = 0.5; background.scaleY = 0.5;
 		
 		mans[0].scaleX = 0.4; mans[0].scaleY = 0.5;
-		mans[0].x = 1150; mans[0].y = 110;
+		mans[0].x = 575; mans[0].y = 110;
 
 		clothes[0].scaleX = 0.5; clothes[0].scaleY = 0.5;
 		clothes[1].scaleX = 0.5; clothes[1].scaleY = 0.5;

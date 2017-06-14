@@ -12,11 +12,11 @@ $(function(){// $ methods go here...
 
 	for (let item of items){
 		$(item).click(function Change(){
-			if(item.style.backgroundColor == "yellow"){
+			if(item.style.backgroundColor == "red"){
 				item.style.backgroundColor = "#192024";
 				score -= 1;
 			} else {
-				item.style.backgroundColor = "yellow"
+				item.style.backgroundColor = "red"
 				score += 1;
 			} 
 		});
